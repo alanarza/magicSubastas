@@ -8,7 +8,7 @@
 
 @section('content')
 
-<h2 class="w3ls">Museo Regional Salesiano</h2>          
+<h2 class="w3ls">MTG Subastas</h2>          
 <div id="container_demo" >
     <div id="wrapper">
         <div id="login">
