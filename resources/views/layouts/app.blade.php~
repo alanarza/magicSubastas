@@ -57,12 +57,12 @@
                     </a>
                     <ul id="submenu-1" class="collapse">
                         <li>
-                            <a href="">
+                            <a href="{{ route('personas.index') }}">
                                 Ver listado
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="{{ route('personas.create') }}">
                                 Cargar persona
                             </a>
                         </li>
@@ -76,12 +76,12 @@
                     </a>
                     <ul id="submenu-2" class="collapse">
                         <li>
-                            <a href="">
+                            <a href="{{ route('fondos.index') }}">
                                 Ver listado
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="{{ route('fondos.create') }}">
                                 Cargar fondo
                             </a>
                         </li>
@@ -95,12 +95,12 @@
                     </a>
                     <ul id="submenu-3" class="collapse">
                         <li>
-                            <a href="">
+                            <a href="{{ route('clasificaciones.index') }}">
                                 Ver listado
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="{{ route('clasificaciones.create') }}">
                                 Cargar clasificación
                             </a>
                         </li>
@@ -114,12 +114,12 @@
                     </a>
                     <ul id="submenu-4" class="collapse">
                         <li>
-                            <a href="">
+                            <a href="{{ route('piezas.index') }}">
                                 Ver listado
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="{{ route('piezas.create') }}">
                                 Cargar pieza
                             </a>
                         </li>
@@ -133,19 +133,19 @@
                     </a>
                     <ul id="submenu-5" class="collapse">
                         <li>
-                            <a href="">
+                            <a href="{{ route('revisiones.index') }}">
                                 Ver listado
                             </a>
                         </li>
                         <li>
-                            <a href="">
+                            <a href="{{ route('revisiones.create') }}">
                                 Nueva revisión
                             </a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="{{ url('/usuarios') }}">
                         <i class="fa fa-fw fa-user-o"></i>
                         USUARIOS
                     </a>
